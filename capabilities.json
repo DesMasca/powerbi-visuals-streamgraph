@@ -183,6 +183,27 @@
                             }
                         }
                     }
+                },
+                "fillRule": {
+                    "displayName": "Color saturation",
+                    "type": {
+                        "fillRule": {}
+                    },
+                    "rule": {
+                        "inputRole": "Gradient",
+                        "output": {
+                            "property": "fill",
+                            "selector": [
+                                "Axis"
+                            ]
+                        }
+                    }
+                },
+                "showAllDataPoints": {
+                    "displayName": "Show all",
+                    "type": {
+                        "bool": true
+                    }
                 }
             }
         },

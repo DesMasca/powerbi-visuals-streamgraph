@@ -77,10 +77,19 @@ export class LabelsSettings {
     }
 }
 
+// tslint:disable-next-line:class-name
+export class dataPointSettings {
+    // Fill
+    public fill: string = "#01b8aa";
+
+  }
+
 export class VisualSettings extends DataViewObjectsParser {
     public general: GeneralSettings = new GeneralSettings();
     public categoryAxis: XAxisSettings = new XAxisSettings();
     public valueAxis: BaseAxisSettings = new BaseAxisSettings();
     public legend: LegendSettings = new LegendSettings();
     public labels: LabelsSettings = new LabelsSettings();
+    // Addition for data colors
+    public dataPoint: dataPointSettings = new dataPointSettings();
 }

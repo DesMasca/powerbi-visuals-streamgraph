@@ -171,6 +171,21 @@
                 }
             }
         },
+        "dataPoint": {
+            "displayName": "Data colors",
+            "properties": {
+                "fill": {
+                    "displayName": "Default color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "legend": {
             "displayName": "Legend",
             "displayNameKey": "Visual_Legend",
